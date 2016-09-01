@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body { 
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+table, tr{
+	margin-left:50px;
+}
+td{
+	padding-right:20px;
+}
+
+#header-top{
+border: 2px solid #ccc;
+background-color: #FEFFED; 
+width: 1000px; !important
+font-family: 'Raleway', sans-serif;
+border-radius: 10px;
+text-align:center;
+margin-bottom:20px;
+margin-top:-1px;
+}
+
+#header-middle{
+border: 2px solid #ccc;
+background-color: #FEFFED; 
+width: 1000px; !important
+font-family: 'Raleway', sans-serif;
+border-radius: 10px;
+text-align:center;
+margin-bottom:20px;
+margin-top:20px;
+}
+
+
+#main{
+width:1001px;
+background-color: #b7d4fa; 
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+margin:0 auto;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+input[type=text],input[type=email], input[type=date], input[type=radio]{
+padding: 5px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 16px;
+font-family:raleway;
+font-size: 20px
+}
+
+
+input[type=submit]{
+width: 100%;
+background-color:#ff8080;
+color: white;
+border: 2px solid #FFCB00;
+padding: 10px;
+font-size:40px;
+font-weight: bold;
+text-shadow: 2px 2px #000000;
+cursor:hand;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: -17px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #999;
+    color: #ff1a1a;
+}
+
+a:hover { 
+    color: black;
+}
